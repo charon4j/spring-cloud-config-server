@@ -7,9 +7,14 @@ spring:
   profiles: dev
   application:
     name: cloud-config-dev
+config:
+  info: dev-info
 
 ---
 spring:
   profiles: test
   application:
     name: cloud-config-test
+
+config:
+  info: test-info
